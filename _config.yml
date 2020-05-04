@@ -119,6 +119,6 @@ topics:
     web_url: https://www.vsauce.com/
     image_url: https://www.vsauce.com/img/highlight-logo.png
 
-  - name: Wolfram|Alpha
-    web_url: https://www.vsauce.com/
-    image_url: https://www.wolframalpha.com/_next/static/images/share_3G6HuGr6.png
+  - name: Wolfram Mathematica
+    web_url: https://www.wolfram.com/mathematica/
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Mathematica_Logo.svg/1200px-Mathematica_Logo.svg.png
