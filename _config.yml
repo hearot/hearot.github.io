@@ -1,0 +1,124 @@
+layout: sidebar
+style: light
+
+email: gabriel@hearot.it
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 9
+  exclude:
+    archived: true
+    forks: true
+    projects:
+     - hearot.github.io
+     - ArgoScuolaNext
+     - ArgoScuolaNext-Python
+
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  hackerrank: hearot
+  # instagram: your_username
+  # keybase: your_username
+  # linkedin: your_username
+  # mastodon: your_username
+  # medium: your_username
+  stackoverflow: 8922082
+  telegram: hearot
+  twitter: realHearot
+  # unsplash: your_username
+  # vk: your_username
+  # website: http://your_website_url
+  # youtube: your_username
+
+topics:
+  - name: 3Blue1Brown
+    web_url: https://www.3blue1brown.com/
+    image_url: https://upload.wikimedia.org/wikipedia/commons/b/ba/3B1B_Logo.png
+
+  - name: C
+    web_url: https://github.com/topics/c
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/c/c.png
+
+  - name: C++
+    web_url: https://github.com/topics/cpp
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png
+
+  - name: Desmos
+    web_url: https://www.desmos.com/
+    image_url: https://images.squarespace-cdn.com/content/v1/55e76219e4b03fb450e52fe5/1494429805249-HVV0FBZRF9YVSVLVHGW5/ke17ZwdGBToddI8pDm48kFQQgP34qnCpeHaeAOzTt7pZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIedjZT6_OBzi2ofH1EqNdNeCRxNMlbxs9807lIebBlcA/Graphing.png?format=500w
+
+  - name: GeoGebra
+    web_url: https://www.geogebra.org/
+    image_url: https://www.geogebra.org/assets/img/logo_ellipse_og.1cbb7224.png
+
+  - name: Go
+    web_url: https://github.com/topics/go
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png
+
+  - name: International Olympiads in Informatics
+    web_url: https://ioinformatics.org/
+    image_url: https://ioinformatics.org/icons/ioi-logo-2020.png
+
+  - name: LaTeX
+    web_url: https://github.com/topics/latex
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/latex/latex.png
+
+  - name: Markdown
+    web_url: https://github.com/topics/markdown
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/markdown/markdown.png
+ 
+  - name: Math Stack Exchange
+    web_url: https://math.stackexchange.com/
+    image_url: https://pbs.twimg.com/profile_images/1209545338/apple-touch-icon_400x400.png
+    
+  - name: Minecraft
+    web_url: https://github.com/topics/minecraft
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/minecraft/minecraft.png
+
+  - name: Olimpiadi Italiane di Informatica
+    web_url: https://olinfo.it
+    image_url: https://codeforces.com/predownloaded/fd/36/fd3605bb153f8165f33847034f061e7ef5aa1a36.png
+
+  - name: Python Italia
+    web_url: https://associazione.python.it/
+    image_url: https://avatars0.githubusercontent.com/u/3573467?s=280&v=4
+
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
+
+  - name: Telegram
+    web_url: https://github.com/topics/telegram
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/telegram/telegram.png
+
+  - name: Twitter
+    web_url: https://github.com/topics/twitter
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/twitter/twitter.png
+
+  - name: Vsauce
+    web_url: https://www.vsauce.com/
+    image_url: https://www.vsauce.com/img/highlight-logo.png
+
+  - name: Wolfram|Alpha
+    web_url: https://www.vsauce.com/
+    image_url: https://www.wolframalpha.com/_next/static/images/share_3G6HuGr6.png
