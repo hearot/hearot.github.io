@@ -29,5 +29,39 @@
     <meta property="og:description" content="{{ meta_description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+    <style type="text/css">
+      figure figcaption {
+        text-align: center;
+      }
+      .gist {
+        yrwidth: 500px !important;
+      }
+      .gist-file
+      .gist-data {
+        max-height: 400px;
+      }
+    </style>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          ignoreClass: "gist",
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          processEscapes: true
+        },
+        jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+        extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js",
+                    "MathMenu.js","MathZoom.js","AssistiveMML.js",
+                    "[Contrib]/a11y/accessibility-menu.js"],
+        TeX: {
+          extensions: ["AMSmath.js","AMSsymbols.js",
+                      "noErrors.js","noUndefined.js"],
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        }
+      });
+    </script>
   </head>
   <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
