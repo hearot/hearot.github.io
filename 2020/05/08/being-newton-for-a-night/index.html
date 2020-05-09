@@ -32,6 +32,14 @@
       .gist-data {
         max-height: 400px;
       }
+      figure {
+        clear: both;
+        display: inline-block;
+        float: left;
+        font-size: smaller;
+        padding: 0.5em;
+        text-align: center;
+      }
     </style>
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
@@ -141,7 +149,7 @@
       <div class="mx-auto" style="max-width: 900px;">
         <div class="f4  mb-6">
           <div class="f4 ">
-            <p class="f5"><a href="http://hearot.it/" class="d-flex flex-items-center "><svg height="16" class="octicon octicon-chevron-left mr-2 v-align-middle" fill="#24292e" aria-label="Home" viewBox="0 0 8 16" version="1.1" width="8" role="img"><path fill-rule="evenodd" d="M5.5 3L7 4.5 3.25 8 7 11.5 5.5 13l-5-5 5-5z"></path></svg>Home</a></p>
+            <p class="f5"><a href="https://hearot.it" class="d-flex flex-items-center "><svg height="16" class="octicon octicon-chevron-left mr-2 v-align-middle" fill="#24292e" aria-label="Home" viewBox="0 0 8 16" version="1.1" width="8" role="img"><path fill-rule="evenodd" d="M5.5 3L7 4.5 3.25 8 7 11.5 5.5 13l-5-5 5-5z"></path></svg>Home</a></p>
             <h1 class="f00-light lh-condensed">Being Newton for a night!</h1>
             <p class="text-gray mb-5">Published May 08, 2020</p>
             
@@ -158,13 +166,13 @@
         <ul class="d-flex d-sm-block list-style-none">
           
             <li class="mt-sm-3">
-              <a href="https://telegram.me/share/url?url=http%3A%2F%2Fhearot%2Eit%2F2020%2F05%2F08%2Fbeing-newton-for-a-night%2F" title="Share on Telegram" class="d-flex flex-items-center">
+              <a href="https://telegram.me/share/url?url=" title="Share on Telegram" class="d-flex flex-items-center url-share">
                 <div style="width:32px"><svg height="20" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.9434 1.52996L16.9243 15.7574C16.7018 16.7662 16.1009 17.011 15.2627 16.5362L10.6637 13.1463L8.44574 15.2826C8.20095 15.5274 7.99325 15.7351 7.51851 15.7351L7.84489 11.0545L16.368 3.35475C16.7389 3.02836 16.2864 2.84292 15.7968 3.1693L5.26349 9.80084L0.723777 8.38403C-0.262794 8.07249 -0.285048 7.39746 0.931477 6.92272L18.6675 0.0834836C19.4909 -0.21323 20.2104 0.283765 19.9434 1.52996Z" fill="#959DA5"/></svg></div><span class="d-none d-sm-inline-block text-gray-light">Telegram</span>
               </a>
             </li>
           
             <li class="mt-sm-3">
-              <a href="https://twitter.com/share?url=http%3A%2F%2Fhearot%2Eit%2F2020%2F05%2F08%2Fbeing-newton-for-a-night%2F" title="Share on Twitter" class="d-flex flex-items-center">
+              <a href="https://twitter.com/share?url=" title="Share on Twitter" class="d-flex flex-items-center url-share">
                 <div style="width:32px"><svg height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 273.5 222.3"><path d="M273.5 26.3a109.77 109.77 0 0 1-32.2 8.8 56.07 56.07 0 0 0 24.7-31 113.39 113.39 0 0 1-35.7 13.6 56.1 56.1 0 0 0-97 38.4 54 54 0 0 0 1.5 12.8A159.68 159.68 0 0 1 19.1 10.3a56.12 56.12 0 0 0 17.4 74.9 56.06 56.06 0 0 1-25.4-7v.7a56.11 56.11 0 0 0 45 55 55.65 55.65 0 0 1-14.8 2 62.39 62.39 0 0 1-10.6-1 56.24 56.24 0 0 0 52.4 39 112.87 112.87 0 0 1-69.7 24 119 119 0 0 1-13.4-.8 158.83 158.83 0 0 0 86 25.2c103.2 0 159.6-85.5 159.6-159.6 0-2.4-.1-4.9-.2-7.3a114.25 114.25 0 0 0 28.1-29.1" fill="#959da5"/></svg></div><span class="d-none d-sm-inline-block text-gray-light">Twitter</span>
               </a>
             </li>
@@ -184,8 +192,8 @@
 </ul>
 
 <h2 id="introduction-to-the-pendulum">Introduction to the pendulum</h2>
-<figure style="float: left;font-size: 12px">
-<p><img src="https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_1.png" alt="The physical model for an ideal pendulum." style="max-width: 100%;height: auto;width:250px" /></p>
+<figure>
+<p><img src="https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_1.png" alt="The physical model for an ideal pendulum." style="max-width: 100%; height: auto; width: 225px" /></p>
   <figcaption><em>Figure 1: the physical model<br />for an ideal pendulum.</em></figcaption>
 </figure>
 
@@ -218,11 +226,10 @@
 
 <script src="https://gist.github.com/hearot/06c48e9a9c6ff81e9dea6e2a22e05ec2.js"></script>
 
-<figure style="float: left;font-size: 12px">
-<p><img src="https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_2.gif" alt="The pendulum motion." style="max-width: 100%;height: auto;width: 250px" /></p>
-  <figcaption><em>Figure 2: the pendulum motion over time.</em></figcaption>
+<figure>
+<p><img src="https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_2.gif" alt="The pendulum motion." style="max-width: 100%; height: auto; width: 225px" /></p>
+  <figcaption><em>Figure 2: the pendulum<br />motion over time.</em></figcaption>
 </figure>
-<p><br /></p>
 
 <p>I thereupon executed it and plotted the function $\theta(t)$ (see <em>Figure 2</em>). As we can see, the plot is actually a <a href="https://en.wikipedia.org/wiki/Sine_wave">sinusoid</a>, which respects all the conditions we assumed while trying to retrieve a general form for the pendulum equation.</p>
 
@@ -230,8 +237,8 @@
 
 <p>What is notable is the fact that the amplitude does not influence the period of the function, which in the first place might sound counterintuitive.</p>
 
-<figure style="float: left;font-size: 12px">
-<p><img src="https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_3.gif" alt="Demonstration of the independence of the period." style="max-width: 100%;height: auto;width: 250px" /></p>
+<figure>
+<p><img src="https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_3.gif" alt="Demonstration of the independence of the period." style="max-width: 100%; height: auto; width: 225px" /></p>
   <figcaption><em>Figure 3: demonstration of the<br />independence of the period by<br />letting the amplitude change.</em></figcaption>
 </figure>
 
@@ -243,9 +250,9 @@
 
 <p>As a result of all these combinations of information, it follows that neither the mass influences the period. Actually, the mass is insignificant for the whole physical system except for the tension.</p>
 
-<figure style="float: left;font-size: 12px">
-<p><img src="https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_4.gif" alt="Pendulum velocity over time." style="max-width: 100%;height: auto;width: 250px" /></p>
-  <figcaption><em>Figure 4: pendulum velocity over time.</em></figcaption>
+<figure>
+<p><img src="https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_4.gif" alt="Pendulum velocity over time." style="max-width: 100%; height: auto; width: 225px" /></p>
+  <figcaption><em>Figure 4: pendulum<br />velocity over time.</em></figcaption>
 </figure>
 
 <p>Even the velocity plot (see <em>Figure 4</em>) shares the same period as the motion one. That is because the first derivative of $\theta(t)$ (i.e. the velocity itself) is equal to $-\sqrt{\frac{g}{\ell}}A\sin(\sqrt{\frac{g}{\ell}}t)$, whose period is identical to the one of the motion.</p>
@@ -258,8 +265,8 @@
 
 <h2 id="the-experiment">The experiment</h2>
 
-<figure style="float: left;font-size: 12px">
-<p><img src="https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_5.jpg" alt="The measurement of the string of the yo-yo." style="max-width: 100%;height: auto;width: 250px" /></p>
+<figure>
+<p><img src="https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_5.jpg" alt="The measurement of the string of the yo-yo." style="max-width: 100%; height: auto; width: 225px" /></p>
   <figcaption><em>Figure 5: the measurement of<br />the string of the yo-yo.</em></figcaption>
 </figure>
 
@@ -269,8 +276,8 @@
 
 <p>Actually, it is enough: we can already predict the value of the period. I subsequently calculated the period $T$ and it turned out to be about $1.90345\text{ s}$.</p>
 
-<figure style="float: left;font-size: 12px">
-<p><img src="https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_6.gif" alt="The yo-yo motion caught during the experiment." style="max-width: 100%;height: auto;width: 250px" /></p>
+<figure>
+<p><img src="https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_6.gif" alt="The yo-yo motion caught during the experiment." style="max-width: 100%; height: auto; width: 225px" /></p>
   <figcaption><em>Figure 6: the yo-yo motion<br />caught during the experiment.</em></figcaption>
 </figure>
 
@@ -320,5 +327,21 @@
 
 
   </body>
+
+  <script>
+    var elements = document.getElementsByClassName("url-share");
+
+    for(var i=0; i < elements.length; i++) {
+      elements[i].href += encodeURIComponent(window.location.href);
+    }
+
+    if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      var elements = document.getElementsByTagName("figure");
+
+      for(var i=0; i < elements.length; i++) {
+        elements[i].style.float = "none";
+      }
+    }
+  </script>
 </html>
 
