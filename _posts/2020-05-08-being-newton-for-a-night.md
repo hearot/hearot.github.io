@@ -13,8 +13,8 @@ During the quarantine dued to the [2019-2020 Coronavirus pandemic](https://en.wi
 
 ## Introduction to the pendulum
 {% figure caption:"*Figure 1: the physical model<br/>for an ideal pendulum.*" %}
-  ![The physical model for an ideal pendulum.](https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_1.png){:style="max-width: 100%;height: auto;width:250px"}
-{% endfigure %}{:style="float: left;font-size: 12px"}
+  ![The physical model for an ideal pendulum.](https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_1.png){:style="max-width: 100%; height: auto; width: 225px"}
+{% endfigure %}
 
   A pendulum is a weight linked to a pivot by a string that freely swings.[^2] It is so interesting and apparently simple that physicists have been studying it for ages. For example, the Italian scientist [Galileo Galilei](https://en.wikipedia.org/wiki/Galileo_Galilei) designed a pendulum clock in 1641[^3], although he didn't succeed in building it. In fact, the one who built the first pendulum clock is the Dutch physicist [Christiaan Huygens](https://en.wikipedia.org/wiki/Christiaan_Huygens), who did so in 1656 and published his theory of the pendulum seventeen years later. It is worth mentioning that its deviation was around a bunch of seconds a day, which was extremely accurate by that time.[^4] It took almost 300 years to exceed its accuracy: indeed, in 1921, the quartz [crystal oscillator](https://en.wikipedia.org/wiki/Crystal_oscillator) was invented and replaced the pendulum.[^5]
 
@@ -45,10 +45,9 @@ During the quarantine dued to the [2019-2020 Coronavirus pandemic](https://en.wi
 
   <script src="https://gist.github.com/hearot/06c48e9a9c6ff81e9dea6e2a22e05ec2.js"></script>
 
-{% figure caption:"*Figure 2: the pendulum motion over time.*" %}
-  ![The pendulum motion.](https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_2.gif){:style="max-width: 100%;height: auto;width: 250px"}
-{% endfigure %}{:style="float: left;font-size: 12px"}
-  <br/>
+{% figure caption:"*Figure 2: the pendulum<br/>motion over time.*" %}
+  ![The pendulum motion.](https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_2.gif){:style="max-width: 100%; height: auto; width: 225px"}
+{% endfigure %}
 
   I thereupon executed it and plotted the function $\theta(t)$ (see *Figure 2*). As we can see, the plot is actually a [sinusoid](https://en.wikipedia.org/wiki/Sine_wave), which respects all the conditions we assumed while trying to retrieve a general form for the pendulum equation.
 
@@ -57,8 +56,8 @@ During the quarantine dued to the [2019-2020 Coronavirus pandemic](https://en.wi
   What is notable is the fact that the amplitude does not influence the period of the function, which in the first place might sound counterintuitive.
 
 {% figure caption:"*Figure 3: demonstration of the<br/>independence of the period by<br/>letting the amplitude change.*" %}
-  ![Demonstration of the independence of the period.](https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_3.gif){:style="max-width: 100%;height: auto;width: 250px"}
-{% endfigure %}{:style="float: left;font-size: 12px"}
+  ![Demonstration of the independence of the period.](https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_3.gif){:style="max-width: 100%; height: auto; width: 225px"}
+{% endfigure %}
 
   The only variable that influences the period is the length of the linking string, while the amplitude defines the maximum achievable angle.
 
@@ -68,9 +67,9 @@ During the quarantine dued to the [2019-2020 Coronavirus pandemic](https://en.wi
 
   As a result of all these combinations of information, it follows that neither the mass influences the period. Actually, the mass is insignificant for the whole physical system except for the tension.
 
-{% figure caption:"*Figure 4: pendulum velocity over time.*" %}
-  ![Pendulum velocity over time.](https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_4.gif){:style="max-width: 100%;height: auto;width: 250px"}
-{% endfigure %}{:style="float: left;font-size: 12px"}
+{% figure caption:"*Figure 4: pendulum<br/>velocity over time.*" %}
+  ![Pendulum velocity over time.](https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_4.gif){:style="max-width: 100%; height: auto; width: 225px"}
+{% endfigure %}
 
   Even the velocity plot (see *Figure 4*) shares the same period as the motion one. That is because the first derivative of $\theta(t)$ (i.e. the velocity itself) is equal to $-\sqrt{\frac{g}{\ell}}A\sin\(\sqrt{\frac{g}{\ell}}t\)$, whose period is identical to the one of the motion.
 
@@ -83,8 +82,8 @@ During the quarantine dued to the [2019-2020 Coronavirus pandemic](https://en.wi
 ## The experiment
 
 {% figure caption:"*Figure 5: the measurement of<br/>the string of the yo-yo.*" %}
-  ![The measurement of the string of the yo-yo.](https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_5.jpg){:style="max-width: 100%;height: auto;width: 250px"}
-{% endfigure %}{:style="float: left;font-size: 12px"}
+  ![The measurement of the string of the yo-yo.](https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_5.jpg){:style="max-width: 100%; height: auto; width: 225px"}
+{% endfigure %}
 
   Having the pendulum motion been explained, I thought it would be awesome to experiment it in real life. Therefore, I seeked an object whose motion could be comparable to the pendulum one.
 
@@ -93,8 +92,8 @@ During the quarantine dued to the [2019-2020 Coronavirus pandemic](https://en.wi
   Actually, it is enough: we can already predict the value of the period. I subsequently calculated the period $T$ and it turned out to be about $1.90345\text{ s}$.
   
 {% figure caption:"*Figure 6: the yo-yo motion<br/>caught during the experiment.*" %}
-  ![The yo-yo motion caught during the experiment.](https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_6.gif){:style="max-width: 100%;height: auto;width: 250px"}
-{% endfigure %}{:style="float: left;font-size: 12px"}
+  ![The yo-yo motion caught during the experiment.](https://edu.hearot.it/Experiments/Physics/Pendulum%20Motion/figure_6.gif){:style="max-width: 100%; height: auto; width: 225px"}
+{% endfigure %}
 
   I could have weighed the yo-yo, but I did not for a simple reason: it does not matter. In fact, the weight doesn't appear anywhere in our equations.
 

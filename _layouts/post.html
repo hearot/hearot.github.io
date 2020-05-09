@@ -21,7 +21,7 @@
         <ul class="d-flex d-sm-block list-style-none">
           {% for service in shareable_social_media %}
             <li class="mt-sm-3">
-              <a href="{{ service.share_url_prefix }}{{ page.url | prepend: site.url | prepend: site.baseurl | url_encode }}" title="Share on {{ service.name }}" class="d-flex flex-items-center">
+              <a href="{{ service.share_url_prefix }}" title="Share on {{ service.name }}" class="d-flex flex-items-center url-share">
                 <div style="width:32px">{{ service.icon_svg }}</div><span class="d-none d-sm-inline-block text-gray-light">{{ service.name }}</span>
               </a>
             </li>
@@ -56,7 +56,7 @@
       <div class="mx-auto" style="max-width: 900px;">
         <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
           <div class="f4 {% if site.style == 'dark' %}text-white{% endif %}">
-            <p class="f5"><a href="{{ site.url }}{{ site.baseurl | append:'/' }}" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a></p>
+            <p class="f5"><a href="https://hearot.it" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a></p>
             <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
             <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
             {{ post_body }}
