@@ -25,7 +25,7 @@
         {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
         <a href="mailto:{{ site.email }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
           {{ site.email }}
-        </a> (<a href="https://hearot.it/gpg.txt">GPG key</a>)
+        </a>&nbsp;(<a href="https://hearot.it/gpg.txt">GPG key</a>)
       </div>
     {% endif %}
     {% if user.location %}
