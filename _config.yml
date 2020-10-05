@@ -121,7 +121,7 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 12
   exclude:
     archived: true
     forks: true
@@ -129,6 +129,8 @@ projects:
      - hearot.github.io
      - ArgoScuolaNext
      - ArgoScuolaNext-Python
+     - hearot
+     - the-c-programming-language
 
 social_media:
   # behance: your_username
