@@ -18,6 +18,7 @@ It was during these moments that I remembered one thing I've always wanted to pr
         - [Second step: defining the function $g(x)$](#second-step-defining-the-function-gx)
         - [Third step: comparing $p(x)$ with its own Taylor-Maclaurin series](#third-step-comparing-px-with-its-own-taylor-maclaurin-series)
         - [Fourth step: taking the $i$-th derivative of $p(x)$](#fourth-step-taking-the-i-th-derivative-of-px)
+        - [Final step: comparing the $i$-th derivative of $p(0)$](#final-step-comparing-the-i-th-derivative-of-p0)
       - [Application to the stated problem](#application-to-the-stated-problem)
 
 ## The elementary problem
@@ -44,7 +45,7 @@ We know by the [factor theorem](https://en.wikipedia.org/wiki/Factor_theorem) th
 
 We have to compute $\lambda_1^2 + \lambda_2^2$, which can be rearranged as $(\lambda_1 + \lambda_2)^2 - 2\lambda_1\lambda_2$ and therefore is equal to $4^2 - 2 \cdot 3 = 10$.
 
-In general, given $f(x)=a_n x^n + a_{n-1} x^{n-1} + \ldots + a_1 x + a_0$, we have that $a_m = \displaystyle (-1)^{n-m} \sum_{\mathrm{cyc}} \underbrace{\lambda_i \lambda_j \cdots \lambda_k}_{(n - m)\ \text{times}} \$ where $\lambda_w$ is a root of $f(x)$. These relationships are called [Vieta's formulas](https://en.wikipedia.org/wiki/Vieta%27s_formulas).
+In general, given $f(x)=a_n x^n + a_{n-1} x^{n-1} + \ldots + a_1 x + a_0$, we have that $a_m = \displaystyle (-1)^{n-m} a_n \sum_{\mathrm{cyc}} \underbrace{\lambda_i \lambda_j \cdots \lambda_k}_{(n - m)\ \text{times}} \$ where $\lambda_w$ is a root of $f(x)$. These relationships are called [Vieta's formulas](https://en.wikipedia.org/wiki/Vieta%27s_formulas).
 
 The benefit we get in using this approach is that we do not have to compute the roots of the polynomial $p(x)$.
 
@@ -78,7 +79,7 @@ The following proof makes use of [calculus](https://en.wikipedia.org/wiki/Calcul
 
 ##### First step: defining a polynomial $p(x)$
 
-The first thing we do is defining a polynomial $p(x) = \displaystyle \prod_{i=1}^k \left(1 + \lambda_i x \right)$. It is worth noting that $p(x)$ is equal to $e_0 + e_1 x + e_2 x^2 + \cdots + e_n x^n$. This expression can also be expressed as an infinite sum, given that $e_k = 0$ for $k > n$, hence:
+The first thing we do is defining a polynomial $p(x) = \displaystyle \prod_{i=1}^n \left(1 + \lambda_i x \right)$. It is worth noting that $p(x)$ is equal to $e_0 + e_1 x + e_2 x^2 + \cdots + e_n x^n$. This expression can also be expressed as an infinite sum, given that $e_k = 0$ for $k > n$, therefore giving us the following identity:
 
 $$p(x) = \displaystyle \sum_{i=0}^\infty e_i x^i$$
 
@@ -150,14 +151,12 @@ We can follow the same steps to compute $P_3 = \lambda_1^3 + \lambda_2^3$:
 
 $$3 e_3 = e_2 P_1 - e_1 P_2 + e_0 P_3 \Longrightarrow P_3 = 3 e_3 - e_2 P_1 + e_1 P_2$$
 
-Due to the fact that $e_k = 0$ for $k > n$, $3 e_3$ must be equal to $0$. Therefore, we obtain:
+Due to the fact that $e_k = 0$ for $k > n$, $e_3$ must be equal to $0$. Therefore, we obtain:
 
 $$P_3 = - e_2 P_1 + e_1 P_2 = - 3 \cdot 4 + 4 \cdot 10 = 28$$
 
 In conclusion, we have found a generalized solution for the kind of problems we'd stated in the first place. *Newton, we did it, once again!*
 
-
-
 <hr/>
 
-[^1]: The concept of the shown proof is taken from [ProofWiki](https://proofwiki.org/wiki/Newton%27s_Identities/Proof_2).
+[^1]: The concept of the shown proof is taken from [ProofWiki](https://proofwiki.org/wiki/Newton%27s_Identities/Proof_2), which I recommend you to visit.
