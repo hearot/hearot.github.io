@@ -3,7 +3,7 @@ title: "Being Newton for a night!"
 published: true
 ---
 
-During the quarantine dued to the [2019-2020 Coronavirus pandemic](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic), [Isaac Newton](https://en.wikipedia.org/wiki/Isaac_Newton) came to my mind. In fact, sir Newton was quarantined as well. In August 1665 his university closed down in order to prevent the spread of the [Great Plague of London](https://en.wikipedia.org/wiki/Great_Plague_of_London). What is remarkable is that he developed his calculus and physics theories while staying at home[^1]. So my thought was: "*Am I able to experiment physics at home?*". The answer was definitely affirmative.
+During the quarantine dued to the [2019-2020 Coronavirus pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic), [Isaac Newton](https://en.wikipedia.org/wiki/Isaac_Newton) came to my mind. In fact, sir Newton was quarantined as well. In August 1665 his university closed down in order to prevent the spread of the [Great Plague of London](https://en.wikipedia.org/wiki/Great_Plague_of_London). What is remarkable is that he developed his calculus and physics theories while staying at home[^1]. So my thought was: "*Am I able to experiment physics at home?*". The answer was definitely affirmative.
 
 ## Table of Contents
   - [Introduction to the pendulum](#introduction-to-the-pendulum)
