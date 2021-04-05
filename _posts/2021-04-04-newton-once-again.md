@@ -41,7 +41,7 @@ Furthermore, we have to compute the result of the sum of all the roots raised to
 
 ### Vieta's formulas
 
-We know by the [factor theorem](https://en.wikipedia.org/wiki/Factor_theorem) that $p(x)=x^2-4x+3=(x-\lambda_1)(x-\lambda_1)=x^2-(\lambda_1 + \lambda_2)x+\lambda_1\lambda_2$. Therefore, $\lambda_1 + \lambda_2 = 4$ and $\lambda_1\lambda_2=3$.
+We know by the [factor theorem](https://en.wikipedia.org/wiki/Factor_theorem) that $(x-\lambda_1)(x-\lambda_1)=x^2-(\lambda_1 + \lambda_2)x+\lambda_1\lambda_2$. Therefore, $\lambda_1 + \lambda_2 = 4$ and $\lambda_1\lambda_2=3$.
 
 We have to compute $\lambda_1^2 + \lambda_2^2$, which can be rearranged as $(\lambda_1 + \lambda_2)^2 - 2\lambda_1\lambda_2$ and therefore is equal to $4^2 - 2 \cdot 3 = 10$.
 
@@ -61,7 +61,7 @@ So, is there a generalization of this kind of relationship between the sums of p
 
 Newton's identity states that given $e_m = \|\frac{a_{n-m}}{a_n}\|$ and $P_k = \lambda_1^k + \lambda_2^k + \ldots + \lambda_n^k = \displaystyle \sum_{i=1}^n \lambda_i^k$, the following identity holds:
 
-$$m e_m = e_{m-1} P_1 - e_{m-2} P_2 + e_{m-3} P_3 - \ldots = \displaystyle \sum_{i=1}^{m} (-1)^{i-1} e_{m-i} P_i$$
+$$m e_m = \displaystyle \sum_{i=1}^{m} (-1)^{i-1} e_{m-i} P_i$$
 
 We can even rearrange this identity by noticing that $e_0$ must always be equal to $1$ and get:
 
@@ -87,11 +87,11 @@ $$p(x) = \displaystyle \sum_{i=0}^\infty e_i x^i$$
 
 Then, we take the natural logarithm of the polynomial $p(x)$, getting:
 
-$$\ln(p(x)) = \ln((1+\lambda_1 x)(1+\lambda_2 x)(1+\lambda_3 x)\cdots(1+\lambda_n x)) = \displaystyle \sum_{i=1}^n \ln(1+\lambda_i x)$$
+$$\ln(p(x)) = \displaystyle \sum_{i=1}^n \ln(1+\lambda_i x)$$
 
 Hence, we compute the first derivative of each side of the equation and we define it as $g(x)$:
 
-$$g(x)=\dfrac{\dot p(x)}{p(x)}=\frac{\lambda_1}{1+\lambda_1 x} + \ldots + \frac{\lambda_n}{1+\lambda_n x}=\displaystyle \sum_{i=1}^n \frac{\lambda_i}{1 + \lambda_i x}$$
+$$g(x)=\dfrac{\dot p(x)}{p(x)}=\displaystyle \sum_{i=1}^n \frac{\lambda_i}{1 + \lambda_i x}$$
 
 It is easily provable by induction that the following identity holds:
 
@@ -149,7 +149,7 @@ $$P_2 = {e_1}^2 - 2 e_2 = 4^2 - 2 \cdot 3 = 10$$
 
 We can follow the same steps to compute $P_3 = \lambda_1^3 + \lambda_2^3$:
 
-$$3 e_3 = e_2 P_1 - e_1 P_2 + e_0 P_3 \Longrightarrow P_3 = 3 e_3 - e_2 P_1 + e_1 P_2$$
+$$P_3 = 3 e_3 - e_2 P_1 + e_1 P_2$$
 
 Due to the fact that $e_k = 0$ for $k > n$, $e_3$ must be equal to $0$. Therefore, we obtain:
 
